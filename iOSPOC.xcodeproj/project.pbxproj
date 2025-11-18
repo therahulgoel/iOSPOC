@@ -130,7 +130,6 @@
 		5B2F4E2C25E93AA900A1E0C9 /*  IntegerReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F4E2B25E93AA900A1E0C9 /*  IntegerReplacement.swift */; };
 		5B2F4E3125EA874600A1E0C9 /* CounttheNumberofConsistentStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F4E3025EA874600A1E0C9 /* CounttheNumberofConsistentStrings.swift */; };
 		5B2F4E3625EA89F600A1E0C9 /* UncommonWordsfromTwoSentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F4E3525EA89F600A1E0C9 /* UncommonWordsfromTwoSentences.swift */; };
-		5B5C8D8025CC05B9008F482F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C8D7F25CC05B9008F482F /* WeatherView.swift */; };
 		5B5F7B1225D2469D009299B7 /* DesignCircularDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7B1125D2469D009299B7 /* DesignCircularDeque.swift */; };
 		5B60CD21265FD2D8007716D6 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60CD20265FD2D8007716D6 /* LongestCommonPrefix.swift */; };
 		5B60CD26265FD334007716D6 /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60CD25265FD334007716D6 /* GenerateParentheses.swift */; };
@@ -162,7 +161,6 @@
 		B78F5724210CA2C000EA2135 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F5723210CA2C000EA2135 /* VerticalStackView.swift */; };
 		B78F5726210CA32100EA2135 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F5725210CA32100EA2135 /* CustomView.swift */; };
 		B7A747C320F440F800B872B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A747C220F440F800B872B6 /* AppDelegate.swift */; };
-		B7A747C520F440F800B872B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A747C420F440F800B872B6 /* ViewController.swift */; };
 		B7A747C820F440F800B872B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A747C620F440F800B872B6 /* Main.storyboard */; };
 		B7A747CA20F440F900B872B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A747C920F440F900B872B6 /* Assets.xcassets */; };
 		B7A747CD20F440F900B872B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A747CB20F440F900B872B6 /* LaunchScreen.storyboard */; };
@@ -426,7 +424,6 @@
 		5B2F4E2B25E93AA900A1E0C9 /*  IntegerReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " IntegerReplacement.swift"; sourceTree = "<group>"; };
 		5B2F4E3025EA874600A1E0C9 /* CounttheNumberofConsistentStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounttheNumberofConsistentStrings.swift; sourceTree = "<group>"; };
 		5B2F4E3525EA89F600A1E0C9 /* UncommonWordsfromTwoSentences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncommonWordsfromTwoSentences.swift; sourceTree = "<group>"; };
-		5B5C8D7F25CC05B9008F482F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		5B5F7B1125D2469D009299B7 /* DesignCircularDeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCircularDeque.swift; sourceTree = "<group>"; };
 		5B60CD20265FD2D8007716D6 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		5B60CD25265FD334007716D6 /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
@@ -476,7 +473,6 @@
 		B78F5725210CA32100EA2135 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		B7A747BF20F440F800B872B6 /* iOSPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A747C220F440F800B872B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7A747C420F440F800B872B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7A747C720F440F800B872B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7A747C920F440F900B872B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A747CC20F440F900B872B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1130,14 +1126,6 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		5B5C8D7B25CC0517008F482F /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				5B5C8D7F25CC05B9008F482F /* WeatherView.swift */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
 		B78F570A210C9C2000EA2135 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -1207,7 +1195,6 @@
 			isa = PBXGroup;
 			children = (
 				1349914E22BA681F00482D16 /* Notes.swift */,
-				5B5C8D7B25CC0517008F482F /* SwiftUI */,
 				1385315023082DA200236053 /* Common */,
 				13D0272122FFE05300E1A1C0 /* ImageDownloader */,
 				13D0272022FFE03800E1A1C0 /* NetworkLayer */,
@@ -1227,7 +1214,6 @@
 				B7A747F020F4421400B872B6 /* Autolayout */,
 				136F2A16231D4486003582AB /* LeetCode */,
 				B7A747C220F440F800B872B6 /* AppDelegate.swift */,
-				B7A747C420F440F800B872B6 /* ViewController.swift */,
 				B7A747C620F440F800B872B6 /* Main.storyboard */,
 				B7A747C920F440F900B872B6 /* Assets.xcassets */,
 				B7A747CB20F440F900B872B6 /* LaunchScreen.storyboard */,
@@ -1540,7 +1526,6 @@
 				13ED640B2920A8C60007CA36 /* Check If String Is a Prefix of Array.swift in Sources */,
 				D42D9D93243B0EA70071096F /* PopulatingNextRightPointersinEachNodeII.swift in Sources */,
 				D42B90F324481F11005A060A /* FindNUniqueIntegersSumuptoZero.swift in Sources */,
-				5B5C8D8025CC05B9008F482F /* WeatherView.swift in Sources */,
 				13F5B981224CCAE3005F0324 /* BacktrackingTests.swift in Sources */,
 				D420D95F2451933700AD73D0 /* NumberComplement.swift in Sources */,
 				5B80D78A266BC0AD0028F326 /* SnakesandLadders.swift in Sources */,
@@ -1627,7 +1612,6 @@
 				13E3C80E2979AF6800A77C74 /* Symmetric Tree.swift in Sources */,
 				1367CC8C292BDFA50078F9EF /* Partition Array Into Three Parts With Equal Sum.swift in Sources */,
 				13E5B5D2231E866B00C194F8 /* 1042.swift in Sources */,
-				B7A747C520F440F800B872B6 /* ViewController.swift in Sources */,
 				5B5F7B1225D2469D009299B7 /* DesignCircularDeque.swift in Sources */,
 				D420D9632451A2C800AD73D0 /* Subtract the ProductandSumofDigitsofanInteger.swift in Sources */,
 				13F5B983224CCB03005F0324 /* Dynamic.swift in Sources */,
