@@ -358,6 +358,7 @@
 		13AFE28222D4BF36000C5938 /* HuffmanCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanCoding.swift; sourceTree = "<group>"; };
 		13AFE28422D4BF47000C5938 /* HuffmanCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanCodingTests.swift; sourceTree = "<group>"; };
 		13B0D11222EAC21A002D3A5F /* DesignPatterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DesignPatterns.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		13B3E9452ECD889E002BE083 /* LeetCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		13C8D69D23165786002369B0 /* SegmentTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTree.swift; sourceTree = "<group>"; };
 		13C8D69F23165833002369B0 /* SegmentTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTreeTests.swift; sourceTree = "<group>"; };
 		13CCC859290E3BAC00BDFD88 /* ShuffleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleString.swift; sourceTree = "<group>"; };
@@ -1194,6 +1195,7 @@
 		B7A747C120F440F800B872B6 /* iOSPOC */ = {
 			isa = PBXGroup;
 			children = (
+				13B3E9452ECD889E002BE083 /* LeetCode.playground */,
 				1349914E22BA681F00482D16 /* Notes.swift */,
 				1385315023082DA200236053 /* Common */,
 				13D0272122FFE05300E1A1C0 /* ImageDownloader */,
