@@ -9,9 +9,9 @@
 import CoreData
 import Foundation
 
-final class CoreDataManager{
+final class CoreDataManager: @unchecked Sendable {
     
-    static var shared:CoreDataManager = CoreDataManager() //Singleton Boject
+    static let shared: CoreDataManager = CoreDataManager() //Singleton Object
     
     private init(){
     }
@@ -31,7 +31,7 @@ final class CoreDataManager{
             guard let error = error as NSError? else { return }
             print("persistent store container initialization error \(error)")
             //Decide the merge Policy
-            self.persistentContainer.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
+            self.persistentContainer.viewContext.mergePolicy = NSMergePolicy.mergeByPropertyObjectTrump
             self.persistentContainer.viewContext.undoManager = nil
             self.persistentContainer.viewContext.shouldDeleteInaccessibleFaults = true
             

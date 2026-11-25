@@ -27,8 +27,8 @@ public enum TRGHttpStatusCode:Int{
     case ServerError = 500
 }
 
-open class TRGNetworkAPIManager{
-    static let shared:TRGNetworkAPIManager = TRGNetworkAPIManager()
+open class TRGNetworkAPIManager: @unchecked Sendable {
+    static let shared: TRGNetworkAPIManager = TRGNetworkAPIManager()
     
     //MARK: Private
     private init() {

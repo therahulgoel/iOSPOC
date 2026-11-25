@@ -26,9 +26,9 @@ import UserNotifications
  
 
  */
-final class PushNotificationsManager{
+final class PushNotificationsManager: @unchecked Sendable {
     
-    static var shared:PushNotificationsManager = PushNotificationsManager()
+    static let shared: PushNotificationsManager = PushNotificationsManager()
     
     private init() {
     }

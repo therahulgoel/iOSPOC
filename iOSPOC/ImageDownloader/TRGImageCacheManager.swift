@@ -15,8 +15,8 @@ public enum CacheType{
     case OnDisk
 }
 
-final class TRGImageCacheManager{
-    static let shared:TRGImageCacheManager = TRGImageCacheManager(type: .InMemory)
+final class TRGImageCacheManager: @unchecked Sendable {
+    static let shared: TRGImageCacheManager = TRGImageCacheManager(type: .InMemory)
     
     //Temporary place to store images downloaded recently
     private let cache:NSCache = NSCache<NSString,UIImage>()

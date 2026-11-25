@@ -8,9 +8,9 @@
 
 import UserNotifications
 
-final class LocalNotificationsManager{
+final class LocalNotificationsManager: @unchecked Sendable {
     
-    static var shared:LocalNotificationsManager = LocalNotificationsManager()
+    static let shared: LocalNotificationsManager = LocalNotificationsManager()
     
     var center:UNUserNotificationCenter = UNUserNotificationCenter.current()
     let options: UNAuthorizationOptions = [.alert, .sound, .badge]
